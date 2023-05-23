@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(180deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 67%);
+    height: 93vh;
+    width: 100%;
+    display: flex;
+}
+
+.heading {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.heading p {
+    margin: 10px 0 0 60px;
+    font-size: 25px;
+    position: fixed;
+
+}
+
+.input_box {
+    height: 50vh;
+    width: 300px;
+    margin: 40px 0 0 40px;
+    background-color: white;
+    padding: 20px;
+}
+
+#myInput {
+    height: 35px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+#desc {
+    margin-top: 20px;
+    width: 250px;
+    padding: 12px;
+}
+
+.btn {
+    height: 34px;
+    width: 40px;
+    background: rgb(0, 212, 255);
+    position: absolute;
+    left: 270px;
+    top: 149px;
+    font-size: 23px;
+}
+
+.out {
+    margin: 50px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+}
+
+#myUL li {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    list-style: none;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.close {
+    font-size: 20px;
+    background-color: rgba(9, 9, 121, 1);
+    padding: 8px;
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 8px;
+}
+
+li .description {
+    font-size: 14px;
+    color: #555;
+}
