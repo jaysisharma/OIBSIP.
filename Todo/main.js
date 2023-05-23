@@ -8,7 +8,6 @@ for (var i = 0; i < myNodelist.length; i++) {
     span.appendChild(icon);
     myNodelist[i].appendChild(span);
 }
-
 // Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
 for (var i = 0; i < close.length; i++) {
